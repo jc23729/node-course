@@ -1,24 +1,14 @@
-// challenge is define and use a function in a new file
+const validator = require("validator")
 
-// Create a new file called notes.js
-// Create getNotes function that returns "Your notes..."
-// Export get Notes function
-// From app.js, load in and call the function printing message to console
+const getNotes = require('./notes.js');
 
+const msg = getNotes()
 
-var getNotes = require('./notes.js');
-
-console.log(getNotes);
+console.log(validator.isEmail('example.com'));
 
 
 
 
-
-
-
-// const add = require('./utils.js');
-// const sum = add(4, -2)
-// console.log(sum)
 
 
 

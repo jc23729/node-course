@@ -21,7 +21,10 @@ yargs.command({
         console.log('Removing a note')
     }
 })
-
+// //Challenge: Add two new commands
+// 1. Setup command to support "list" command print placeholder message for new
+// 2. Setup command to support read command and print the placeholder message for now
+// 3. Test your work by running both commandsto ensure output
 
 
 console.log(yargs.argv)

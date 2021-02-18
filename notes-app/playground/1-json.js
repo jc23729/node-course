@@ -17,6 +17,15 @@ const fs = require('fs');
 
 
 // Load and parse the json data
+const dataBuffer = fs.readFileSync('1-json.json')
+const dataJSON = dataBuffer.toString()
+const user = JSON.parse(dataJSON)
+
 // Change the name of age property using your info
+user.name = 'John'
+user.age = 38
+
 // Stringify the changed object and overwrite the origonal data
+const userJSON = JSON.stringify(user)
+fs.writeFileSync('1-json.json', userJSON)
 // Test your work by viewing data in Json File

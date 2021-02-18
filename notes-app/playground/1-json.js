@@ -14,3 +14,9 @@ const fs = require('fs');
 // const data = JSON.parse(dataJSON)
 
 // console.log(data.title)
+
+
+// Load and parse the json data
+// Change the name of age property using your info
+// Stringify the changed object and overwrite the origonal data
+// Test your work by viewing data in Json File

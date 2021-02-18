@@ -29,3 +29,4 @@ user.age = 38
 const userJSON = JSON.stringify(user)
 fs.writeFileSync('1-json.json', userJSON)
 // Test your work by viewing data in Json File
+//Run json file      1-json.json

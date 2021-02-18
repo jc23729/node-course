@@ -3,6 +3,17 @@ const yargs = require('yargs');
 const getNotes = require('./notes.js');
 
 //customize yargs version
+// Commands that we created
+// Commands:
+//   app.js add     Adding a new note
+//   app.js remove  Remove a note
+//   app.js list    List your notes
+//   app.js read    Read a note
+
+// Options:
+//   --help     Show help                                                 [boolean]
+//   --version  Show version number                                       [boolean]
+// Macs-MBP:notes-app mac$ 
 
 //Create add command
 yargs.command({

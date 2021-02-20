@@ -59,7 +59,7 @@ const loadNotes = function(){
 // { _: [ 'add' ], title: 'List', body: 'Sweater, Pants', '$0': 'app.js' }
 // Macs-MBP:notes-app mac$ 
 
-
+//both of the functions can now be exported 
 module.exports = {
     getNotes : getNotes,
     addNote : addNote

@@ -1,5 +1,6 @@
 const chalk = require('chalk');
 const yargs = require('yargs');
+//now an object with more addNote, const saveNote, const loadNote
 const notes = require('./notes.js');
 
 //customize yargs version
@@ -31,6 +32,7 @@ yargs.command({
             type: 'string',
         }
     },
+    //we pass in the two arguments it expects on handler
     handler: function handler(argv) {
         notes.addNote(argv.title, argv.body);
 

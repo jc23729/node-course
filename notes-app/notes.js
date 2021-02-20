@@ -32,6 +32,7 @@ const removeNote = function(title){
     const notesToKeep = notes.filter(function(note){
         return note.title !=title
     })
+saveNotes(notesToKeep)
 }
 
 }

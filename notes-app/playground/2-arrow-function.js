@@ -8,11 +8,11 @@
 // Console.log(square(2));
 
 
-// const event = {
-//     name: 'Birthday Party',
-//     guestList: ['Andrew', 'Jen','Mike']
-//     printGuestList: function printGuestList(str) {
-//         console.log('Guest list for' + this.name);
-//     }
-// }
+const event = {
+    name: 'Birthday Party',
+    guestList: ['Andrew', 'Jen','Mike']
+    printGuestList: function printGuestList(str) {
+        console.log('Guest list for' + this.name);
+    }
+}
 
